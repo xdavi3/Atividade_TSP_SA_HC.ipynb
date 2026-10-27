@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+inspect_sample.py
+test_heuristics.py
+verify_optimal.py
+generate_notebook.py
+execute_and_embed_notebook.py
+Atividade_TSP_Simulated_Annealing_vs_Hill_Climbing.ipynb
