@@ -13,3 +13,4 @@ merged_final_notebook.ipynb
 prepare_for_git.py
 execute_and_embed_notebook.py
 generate_notebook.py
+rebuild_all_perfect.py

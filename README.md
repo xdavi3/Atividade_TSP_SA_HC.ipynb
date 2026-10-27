@@ -28,10 +28,11 @@ Clique diretamente em um dos botões abaixo para abrir o notebook no Google Cola
 
 | Algoritmo | Operador de Vizinhança | Melhor Custo (Mín) | Custo Médio | Desvio Padrão (Custo) | Pior Custo (Máx) | Gap Médio (%) | Tempo Médio (s) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Simulated Annealing** | **2-Opt** | **27.603** *(Ótimo)* | **27.734,6** | **159,62** | **28.084** | **0,48%** | ~1,85s |
-| **Simulated Annealing** | **Swap** | **27.603** *(Ótimo)* | **29.060,8** | **966,24** | **31.467** | **5,28%** | ~1,98s |
-| **Hill-Climbing** | **2-Opt** | 27.750 | 28.814,5 | 740,07 | 30.587 | 4,39% | **0,26s** |
-| **Hill-Climbing** | **Swap** | 30.076 | 35.659,4 | 4.340,92 | 44.973 | 29,19% | **0,25s** |
+| **Simulated Annealing** | **2-Opt** | **27.603** *(Ótimo)* | **27.734,6** | **159,62** | **28.084** | **0,48%** | ~1,66s |
+| **Simulated Annealing** | **Swap** | **27.603** *(Ótimo)* | **29.060,8** | **966,24** | **31.467** | **5,28%** | ~1,55s |
+| **Hill-Climbing Simples** | **2-Opt** | 27.750 | 28.814,5 | 740,07 | 30.587 | 4,39% | **0,27s** |
+| **Hill-Climbing Simples** | **Swap** | 30.076 | 35.659,4 | 4.340,92 | 44.973 | 29,19% | **0,25s** |
+| **Hill-Climbing Restart** | **2-Opt (30x)** | **27.603** *(Ótimo)* | **27.641,5** | **89,30** | **28.022** | **0,14%** | ~1,54s |
 
 *Nota:* $\text{Gap (\%)} = \frac{\text{Custo} - \text{Ótimo}}{\text{Ótimo}} \times 100\%$, onde $\text{Ótimo} = 27.603$.
 
